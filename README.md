@@ -34,7 +34,3 @@
 10. Kinematic viscosity
 11. Boolean Flag*
    - *Evaluates to `True` if the point lies on the airfoil* to a `sim_id` and `row`.
-      - Stored valid index ranges of each simulation (e.g., sim 0: [0, 170180], sim 1: [170181, 320912], ...) in an array,
-      - and used binary search to find `sim_id`.
-   - **Next steps**: Do sanity check with teammates who understand physics part of it. Test the current code and explore how
-     Geometric Deep Learning libraries can help!
