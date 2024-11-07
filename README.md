@@ -1,6 +1,10 @@
 # Navier Coding Challenge
 
-#### Dataset basics.
+V1: First solution. Used custom approach with binary search to index elements without copying any data. Iirc, this would have O(_n * log(k)_) runtime to pull _n_ datapoints given _k_ simulations.
+
+V2: Second solution. I figured there existed an easier way to index elements and found it. Based on how itertools.islice works, I believe this would have O(_n^2_) runtime in the worst case (assuming we're pulling n datapoints randomly). This solution could be slower depending on usage but is a lot cleaner.
+
+#### Dataset basics ❤
 
 #### Dataset_name
 - **Type**: `<class 'list'>` containing elements of type `<class 'str'>`
